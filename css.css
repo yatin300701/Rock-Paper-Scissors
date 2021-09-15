@@ -1,0 +1,106 @@
+/* .green-glow{
+    border: 4px solid #4dcc7d;
+    box-shadow: 0 0 10px #31b43a;
+}
+.red-glow{
+    border: 4px solid #fc121b;
+    box-shadow: 0 0 10px #d01105;
+}
+.gray-glow{
+    border: 4px solid #464647;
+    box-shadow: 0 0 10px #;
+} */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Merriweather', serif;
+}
+body{
+    background-color: #24272E;
+}
+header{
+    background-color:#F0F0F0;
+    padding: 40px;
+}
+header h1{
+    text-align: center;
+    font: Asap , sans-serif;
+}
+
+.score_board{
+    margin: 40px auto;
+    color: white;
+    font-size:40px;
+    border-radius: 4px;
+    text-align: center;
+    padding: 15px 20px;
+    border: 5px solid white;
+    width: 200px;
+    position: relative;
+}
+.badge{
+    background-color: red;
+    color: white;
+    font-size: 14px;
+    padding: 2px 14px;
+}
+#user-badge{
+    position: absolute;
+    top: 25px;
+    left: -35px;
+}
+#comp-badge{
+    position: absolute;
+    top: 25px;
+    right:-35px;
+}
+.message{
+    color: white;
+    font-size: 35px;
+    text-align: center;
+    font-weight: 600;
+    margin: 60px 0px 40px 0px;
+}
+.first{
+    font-size: medium;
+}
+.choises{
+    text-align: center;
+    margin: 40px 0px 2px 0px;
+}
+.choice{
+    border: 6px solid white;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0px 20px;
+    padding:5px;
+    transition: backgroun-color 0.3s ease;
+}
+.choice:hover{
+    cursor: pointer;
+    background-color: white;
+}
+#bottom{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    margin: 20px;
+}
+
+.green-glow{
+    border: 4px solid #4dcc7d;
+    box-shadow: 0 0 10px #31b43a;
+}
+.red-glow{
+    border: 4px solid #fc121b;
+    box-shadow: 0 0 10px #d01105;
+}
+.gray-glow{
+    border: 4px solid #464647;
+    box-shadow: 0 0 10px #;
+}
+
+
